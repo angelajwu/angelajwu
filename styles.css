@@ -1,34 +1,54 @@
 a:link{
-	color: #8A9499;
+	color: #758585;
 }
 
 a:visited{
-	color: #8A9499;
+	color: #758585;
 }
 
 a:hover{
-	color: #C4CACC;
+	color: #526666;
 }
+
+.imagehomepage{
+  float: left;
+  padding-left: 300px;
+  padding-top: 50px;
+}
+
+.imagehomepage img{
+  padding-right: 50px;
+  padding-top: 20px;
+  border: 2px;
+}
+
+
 
 .header h1{
 	font-size: 20px;
 	text-align: left;
 	font-family: "Helvetica Neue";
-	color: #ffffff;
-	margin-left: 40px;
+	color: #5c5c5c;
+	margin-left: 50px;
+}
+
+center{
+  background-color:#ffffff;
+  margin-left: 200px;
+  margin-top: 20px;
 }
 
 .header p{
 	font-size: 14px;
 	text-align: left;
 	font-family: "Helvetica Neue";
-	color: #b8b8b8;
+	color: #5c5c5c;
 	margin-left: 40px;
 	margin-top: -15px;
 }
 
 .header{
-	background-color: #4c4c4c;
+	background-color: #e6e6e6;
 	height: 100px;
 	margin-left: -10px;
 	margin-right: -10px;
@@ -46,11 +66,29 @@ a:hover{
 
 }
 
+.tit1{
+  font-family: "Helvetica Neue";
+  margin-left: 305px;
+}
+
 body {
   margin: 0; 
   padding: 0;
-  background: #111;
+  background: #ffffff;
   height: 100%;
+}
+
+.sidebar{
+  position: absolute;
+  padding-top: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: 'Helvetica';
+  font-size: 13px;
+}
+
+ul{
+  list-style: none;
 }
 
 .diy-slideshow{
@@ -59,27 +97,31 @@ body {
   overflow: hidden;
   width: 80%;
   height: 100%;
+  margin-bottom: 10px;
+  margin-left: 200px;
   margin-top: 20px;
-  margin-bottom: 40px;
+  background-color: #ffffff
 }
 
 figure{
   position: absolute;
   opacity: 0;
   transition: 1s opacity;
+  background-color: #ffffff
 }
+
 figcaption{
   position: absolute;
   margin-right: 45px;
-  margin-bottom: 20px;
+  margin-bottom: 17px;
   font-family: sans-serif;
-  font-size: 0.9em;
-  bottom: .75em;
+  font-size: 12px;
+  bottom: -5px;
   right: .35em;
-  padding: .25em;
-  color: #fff;
-  background: rgba(0,0,0, .25);
-  border-radius: 2px;
+  padding: .5em;
+  color: #000;
+  background: rgba(255,255,255, 0.8);
+  border-radius: 10px;
 }
 figcaption a{
   color: #fff;
@@ -92,7 +134,7 @@ figure.show{
 .next, .prev{
   color: #fff;
   position: absolute;
-  background: rgba(0,0,0, .6);
+  background: rgba(0,0,0, .2);
   top: 50%;
   z-index: 1;
   font-size: 2em;
@@ -119,4 +161,32 @@ figure.show{
 p{
   margin: 10px 20px;
   color: #fff;
+  background-color: #000000
+}
+
+footer{
+  background-color: #e6e6e6;
+  height: 20px;
+}
+
+p1{
+  font-size: 14px;
+  font-family: 'Helvetica';
+  margin-bottom: 20px;
+  color: #676A6A;
+
+}
+
+.description{
+  margin-left: 280px;
+  margin-bottom: 20px;
+  margin-right: 80px;
+}
+
+f1{
+  font-size: 10px;
+  text-align: right;
+  color: #5c5c5c;
+  margin-left: 10px;
+  font-family: 'Helvetica';
 }
