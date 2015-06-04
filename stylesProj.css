@@ -134,10 +134,6 @@ ul.img-list {
   margin-top: 40px;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 ul.img-list li {
   list-style-type: none;
   float: left;
