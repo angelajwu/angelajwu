@@ -127,7 +127,7 @@ ul.img-list {
 }
 
 .main {
-  margin-left: 15%;
+  margin-left: 10%;
   margin-right: 15%;
   border-top-style: solid;
   border-top-width: 2px;
@@ -215,8 +215,7 @@ ul.img-list li:hover span.description {
   border-top-width: 2px;
   border-top-color: #eaeaea;
   margin-top: 40px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
 }
 
 .footer {
