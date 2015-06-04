@@ -128,7 +128,6 @@ ul.img-list {
 
 .main {
   margin-left: 10%;
-  margin-right: 15%;
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #eaeaea;
@@ -159,11 +158,11 @@ span.text-content {
   display: table;
   font-size: 1.5em;
   font-family: "Gotham Condensed";
-  height: 200px;
+  height: 250px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 300px;
+  width: 375px;
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
@@ -184,11 +183,11 @@ span.description {
   display: table;
   font-size: 1.0em;
   font-family: "Gotham Condensed";
-  height: 200px;
+  height: 250px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 300px;
+  width: 375px;
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
