@@ -143,9 +143,9 @@ body {
 ul.img-list li {
   list-style-type: none;
   float: left;
-  height: 200px;
+  height: 300px;
   position: relative;
-  width: 300px;
+  width: 450px;
 }
 
 img {
