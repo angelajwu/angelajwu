@@ -127,8 +127,9 @@ ul.img-list {
 }
 
 .main {
-  margin-left: 13%;
-  margin-right: 13%;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #eaeaea;
@@ -211,13 +212,13 @@ ul.img-list li:hover span.description {
 }
 
 .photog{
-  margin-left: 13%;
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #eaeaea;
   margin-top: 40px;
-  margin-right: 13%;
-}
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;}
 
 .footer {
   margin-top: 50px;
