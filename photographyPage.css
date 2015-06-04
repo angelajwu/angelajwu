@@ -1,0 +1,168 @@
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: local(bebas_neue), url('BebasNeue.otf') format('opentype')
+}
+
+@font-face {
+    font-family: "Verlag Condensed";
+    src: local(verlag), url('Verlag') format('opentype')
+}
+
+@font-face {
+    font-family: "Gotham Condensed";
+    src: local(gothamCondensed), url('GothamCondensed-Light.ot') format('opentype')
+}
+
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: black;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+name {
+    font-size: 50px;
+    text-align: left;
+    font-family: "Bebas Neue";
+    color: #FFF;
+    margin-left: 8%;
+    margin-top: 35px;
+    float: left;
+    letter-spacing: 1px;
+}
+
+
+.nav {
+    background-color: #61877D;
+    height: 80px;
+    width: 102%;
+    position: fixed;
+    top: 0;
+    margin-left: -10px;
+    min-width: 1050px;
+    z-index: 1;
+}
+
+.nav a {
+  text-decoration:none;
+}
+
+.nav a:hover {
+    color: #000;
+}
+
+h2 {
+    float: right;
+    margin-top: 45px;
+    margin-right: 100px;
+    font-family: "Verlag Condensed";
+    font-variant: small-caps;
+    font-width: 200;
+    font-size: 28px;
+    color: #E6E6E6;
+}
+
+h2:link {
+    color: #E6E6E6;
+}
+
+.content {
+    margin-top: 130px;
+    min-width: 800px;
+}
+
+.images {
+    max-width: 65%;
+    margin-left: 5%;
+}
+
+img.left {
+    float: left;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+img.right {
+    float: left;
+    margin-top: -21.2%;
+    margin-left: 15px;
+}
+
+img.rightS {
+    float: left;
+    margin-top: -40.5%;
+    margin-left: 15px;
+    margin-bottom:15px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 130px;
+    left: 68%;
+}
+
+s1 {
+    font-family: "Gotham Condensed";
+    font-size: 24px;
+}
+
+.description {
+    margin-right: 20%;
+    margin-top: 20px;
+}
+
+b1 {
+    font-family: "Arial Narrow";
+    font-size: 16px;
+}
+
+.top {
+    background-color: #000;
+    height: 3px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.bottom {
+    background-color: #496B6B;
+    height: 3px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.footer {
+  margin-top: 50px;
+  position: relative;
+  height: 50px;
+  background-color: #eaeaea;
+}
+
+f1 {
+  font-size: 12px;
+  margin-left: 10%;
+  font-family: "Helvetica Neue";
+  color: #999;
+}
+
+.icons {
+    margin-left: 80%;
+    margin-top: -20px;
+}
+
+img.pad {
+  margin-left: 5px;
+}
