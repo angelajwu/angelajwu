@@ -9,11 +9,6 @@
     src: local(gothamCondensed), url('fonts/GothamCondensed-Light.otf') format('opentype')
 }
 
-@font-face {
-  font-family: "Arial Narrow";
-  src: local (arialNarrow), url('fonts/ArialNarrow.ttf') format ('opentype')
-}
-
 
 a:link {
     color: #fff;
@@ -125,7 +120,7 @@ s1 {
 }
 
 b1 {
-    font-family: "Helvetica Neue";
+    font-family: "Gotham Condensed";
     font-size: 16px;
 }
 
