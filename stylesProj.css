@@ -3,15 +3,12 @@
     src: local(bebas_neue), url('fonts/BebasNeue.otf') format('opentype')
 }
 
-@font-face {
-    font-family: "Verlag Condensed";
-    src: local(verlag), url('fonts/Verlag') format('opentype')
-}
 
 @font-face {
     font-family: "Gotham Condensed";
-    src: local(gothamCondensed), url('fonts/GothamCondensed-Light.ot') format('opentype')
+    src: local(gothamCondensed), url('fonts/GothamCondensed-Light.otf') format('opentype')
 }
+
 
 
 a:link {
@@ -58,7 +55,7 @@ h2 {
     float: right;
     margin-top: 45px;
     margin-right: 100px;
-    font-family: "Verlag Condensed";
+    font-family: "Gotham Condensed";
     font-variant: small-caps;
     font-width: 200;
     font-size: 28px;
