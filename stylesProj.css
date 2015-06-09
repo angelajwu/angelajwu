@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Bebas Neue";
-    src: local(bebas_neue), url('BebasNeue.otf') format('opentype')
+    src: local(bebas_neue), url('fonts/BebasNeue.otf') format('opentype')
 }
 
 @font-face {
     font-family: "Verlag Condensed";
-    src: local(verlag), url('Verlag') format('opentype')
+    src: local(verlag), url('fonts/Verlag') format('opentype')
 }
 
 @font-face {
     font-family: "Gotham Condensed";
-    src: local(gothamCondensed), url('GothamCondensed-Light.ot') format('opentype')
+    src: local(gothamCondensed), url('fonts/GothamCondensed-Light.ot') format('opentype')
 }
 
 
