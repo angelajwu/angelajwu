@@ -65,7 +65,7 @@ h2 {
     font-family: "Gotham Condensed";
     font-variant: small-caps;
     font-width: 200;
-    font-size: 34px;
+    font-size: 40px;
     color: #E6E6E6;
 }
 
@@ -91,7 +91,7 @@ b1 {
     max-width: 80%;
     float: left;
     font-family: "Gotham Condensed";
-    font-size: 16px;
+    font-size: 24px;
 }
 
 b1A {
@@ -101,7 +101,7 @@ b1A {
     max-width: 80%;
     float: left;
     font-family: "Gotham Condensed";
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .sidebar {
@@ -111,7 +111,7 @@ b1A {
 
 s1 {
     font-family: "Gotham Condensed";
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .top {
@@ -165,7 +165,7 @@ s1 {
 
 s2 {
     font-family: "Gotham Condensed";
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .content {
