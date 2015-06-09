@@ -60,7 +60,7 @@ name {
 
 h2 {
     float: right;
-    margin-top: 45px;
+    margin-top: 40px;
     margin-right: 100px;
     font-family: "Gotham Condensed";
     font-variant: small-caps;
@@ -91,7 +91,7 @@ b1 {
     max-width: 80%;
     float: left;
     font-family: "Gotham Condensed";
-    font-size: 24px;
+    font-size: 20px;
 }
 
 b1A {
@@ -101,7 +101,7 @@ b1A {
     max-width: 80%;
     float: left;
     font-family: "Gotham Condensed";
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .sidebar {
