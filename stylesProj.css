@@ -6,7 +6,12 @@
 
 @font-face {
     font-family: "Gotham Condensed";
-    src: local(gothamCondensed), url('fonts/Gotham-Book.otf') format('opentype')
+    src: local(gothamCondensed), url('fonts/GothamCondensed-Light.otf') format('opentype')
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: local(GothamBook), url('fonts/Gotham-Book.otf') format('opentype')
 }
 
 
@@ -101,8 +106,8 @@ a1 {
 
 
 a2{
-  font-size: 1.8vw;
-  font-family: "Gotham Condensed";
+  font-size: 1.1vw;
+  font-family: "Gotham";
 }
 
 .main-title {
