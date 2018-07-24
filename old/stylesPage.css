@@ -1,0 +1,265 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: local(bebas_neue), url('fonts/BebasNeue.otf') format('opentype')
+}
+
+
+@font-face {
+    font-family: "Gotham Condensed";
+    src: local(gothamCondensed), url('fonts/GothamCondensed-Light.otf') format('opentype')
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: local(GothamBook), url('fonts/Gotham-Book.otf') format('opentype')
+}
+
+
+a:link {
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    color: #999;
+}
+
+
+
+name {
+    font-size: 50px;
+    text-align: left;
+    font-family: "Bebas Neue";
+    color: #FFF;
+    margin-left: 100px;
+    margin-top: 35px;
+    float: left;
+    letter-spacing: 1px;
+}
+
+
+.nav {
+    background-color: #61877D;
+    height: 80px;
+    width: 102%;
+    position: fixed;
+    top: 0;
+    margin-left: -10px;
+    min-width: 1050px;
+    z-index: 1;
+}
+
+.nav a {
+  text-decoration:none;
+  color: #fff;
+}
+
+
+.nav a:hover {
+    color: #000;
+}
+
+
+h2 {
+    float: right;
+    margin-top: 40px;
+    margin-right: 100px;
+    font-family: "Gotham Condensed";
+    font-variant: small-caps;
+    font-width: 200;
+    font-size: 40px;
+    color: #E6E6E6;
+}
+
+h2: a{
+    color: #E6E6E6;
+}
+
+img.center {
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.header {
+    min-width: 1050px;
+    margin-top: 130px;
+}
+
+b1 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    max-width: 80%;
+    float: left;
+    font-family: "Gotham";
+    font-size: 1.0vw;
+}
+
+b1A {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    max-width: 80%;
+    float: left;
+    font-family: "Gotham Condensed";
+    font-size: 20px;
+}
+
+.sidebar {
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+s1 {
+    font-family: "Gotham Condensed";
+    font-size: 30px;
+}
+
+.top {
+    background-color: #000;
+    height: 3px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.bottom {
+    background-color: #496B6B;
+    height: 3px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.bottomE {
+    background-color: #993333;
+    height: 3px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.bottomL {
+    background-color: #40406B;
+    height: 3px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.bottomF {
+    background-color: #984949;
+    height: 3px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}  
+
+.bottomM {
+    background-color: #004D4D;
+    height: 3px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}  
+
+
+
+s2 {
+    font-family: "Gotham Condensed";
+    font-size: 20px;
+}
+
+.content {
+    margin-left: 350px;
+    margin-top: -100px;
+    margin-right: 5%;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 800px;
+}
+
+img.dcenter{
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+img.dwcenter{
+    margin-left: 10%;
+    margin-right: auto;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+a.class2:link{
+    color: black;
+}
+
+a.class2:visited{
+    color: black;
+}
+
+a.class2:hover {
+    color: #496B6B;
+}
+
+a.lf:link{
+    color: black;
+}
+
+a.lf:visited{
+    color: black;
+}
+
+a.lf:hover {
+    color: #40406B;
+}
+
+a.maroon:link{
+    color: black;
+}
+
+a.maroon:visited{
+    color: black;
+}
+
+a.maroon:hover {
+    color: #993333;
+}
+
+.footer {
+  margin-top: 50px;
+  position: relative;
+  height: 50px;
+  background-color: #eaeaea;
+}
+
+
+f1 {
+  font-size: 12px;
+  margin-left: 10%;
+  font-family: "Helvetica Neue";
+  color: #999;
+}
+
+.icons {
+    margin-left: 80%;
+    margin-top: -20px;
+}
+
+img.pad {
+  margin-left: 5px;
+}
+
+

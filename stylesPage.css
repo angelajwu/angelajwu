@@ -1,0 +1,296 @@
+@font-face {
+    font-family: "Gotham Light";
+    src: url('fonts/GothamLight.ttf') format('ttf')
+}
+
+@font-face{
+    font-family: "Gotham Light";
+    src: url('fonts/GothamLightI.ttf') format('ttf');
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "Gotham";
+    src: url('fonts/Gotham-Book.otf') format('opentype')
+}
+
+
+@font-face{
+    font-family: "Gotham";
+    src: url('fonts/GothamBookI.ttf') format('opentype');
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "Mercury";
+    src: url('fonts/Mercury.otf') format('opentype')
+}
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #466b75;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #74afbf;
+}
+
+.nav {
+    margin-top: 4em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    background-color: white;
+    z-index: 99;
+}
+
+.header {
+    position: fixed;
+    height: 80px;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index:99;
+}
+
+.top-break{
+    background-color: #ccc;
+    height: 1px;
+    width: 90%;
+    margin: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.7em;
+}
+
+name {
+    font-size: 28px;
+    text-align: center;
+    font-family: "Mercury";
+    color: black;
+    letter-spacing: 1px;
+}
+
+nav1{
+    font-size: 16px;
+    font-family: "Mercury";
+}
+
+.about {
+    height: 500px;
+    margin-top: 200px;
+}
+
+.about-header{
+    margin-top: 3em;
+}
+.about-image {
+    margin-left: 6em;
+    margin-top: 3em;
+    font-family: "Gotham";
+    font-size: 14px;
+    line-height: 20px;
+    float: left;
+    width: 40%;
+}
+
+.about-image a:link {
+    color: #6698a5;
+}
+
+.about-image a:hover{
+    color:#74afbf;
+}
+
+.bio a:link{
+    color: #6698a5;
+}
+
+.bio a:hover{
+    color:#74afbf ;
+}
+
+.bio{
+    display: block;
+    float: left;
+    margin-left: 22em;
+    margin-top: -19em;
+    margin-right: 6em;
+    padding-bottom: 75px;
+}
+
+bio1 {
+    font-size: 24px;
+    font-family: "Gotham Light";
+    color:#6698a5;
+}
+
+bio2{
+    font-size: 24px;
+    font-family: "Gotham Light";
+    color: #72898e;
+}
+
+bio {
+    font-size: 14px;
+    font-family: "Gotham";
+}
+
+.slideshow {
+    display: none;
+}
+
+.demo{
+    cursor: pointer;
+}
+
+.slide-col {
+    width: 14.28%;
+    float: left;
+    padding: 4px;
+}
+
+.project {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Mercury";
+    color: #595959;
+    display: flex;
+}
+
+.projecthead{
+    width: 28%;
+    margin-left: 6em;
+    position: fixed;
+}
+
+.projectdes {
+    margin-left: 40%;
+    margin-right: 6em;
+    font-family: "Mercury";
+    width: 95%
+}
+
+.projectdes img{
+    width: 100%;
+}
+
+.projimgs img{
+    width: 47%;
+    margin-right: 15px;
+}
+
+
+.imghover {
+    position: relative;
+    display: inline-block;
+}
+
+.imghover .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.imghover:hover .img-top{
+    display:inline;
+}
+
+des{
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+}
+
+
+head1{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+head2{
+    font-size: 14px;
+    color: #727272;
+    line-height: 18px;
+}
+
+.projects-grid{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 6em;
+    width: 90%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 30px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.column img:hover{
+    opacity: 0.7;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #eaeaea;
+}
+
+f1 {
+  font-size: 12px;
+  margin-left: 10%;
+  font-family: "Helvetica Neue";
+  color: #999;
+}
+
+.icons {
+    margin-left: 80%;
+    margin-top: -20px;
+}
+
+img.pad {
+  margin-left: 5px;
+}
+
+

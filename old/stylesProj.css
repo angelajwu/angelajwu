@@ -1,0 +1,238 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: local(bebas_neue), url('fonts/BebasNeue.otf') format('opentype')
+}
+
+
+@font-face {
+    font-family: "Gotham Condensed";
+    src: local(gothamCondensed), url('fonts/GothamCondensed-Light.otf') format('opentype')
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: local(GothamBook), url('fonts/Gotham-Book.otf') format('opentype')
+}
+
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: black;
+}
+
+
+name {
+    font-size: 50px;
+    text-align: left;
+    font-family: "Bebas Neue";
+    margin-left: 100px;
+    margin-top: 35px;
+    float: left;
+    letter-spacing: 1px;
+}
+
+
+.nav {
+    background-color: #61877D;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin-left: -10px;
+    min-width: 1050px;
+    z-index: 1;
+}
+
+.nav a {
+  text-decoration:none;
+}
+
+
+h2 {
+    float: right;
+    margin-top: 40px;
+    margin-right: 100px;
+    font-family: "Gotham Condensed";
+    font-variant: small-caps;
+    font-width: 200;
+    font-size: 40px;
+    color: #E6E6E6;
+}
+
+h2:link {
+    color: #E6E6E6;
+}
+
+.about {
+  margin-top: 155px;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  padding-bottom: 20px;
+}
+
+.info {
+  margin-left: 38%;
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #eaeaea;
+  padding-left: 30px;
+}
+
+.info a{
+  text-decoration: none;
+  color: #000;
+}
+
+.info a:hover {
+  color: #61877D;
+}
+
+a1 {
+  font-size: 4vw;
+  font-family: "Bebas Neue";
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #000;
+  margin-bottom: 10px;
+}
+
+
+a2{
+  font-size: 1.3vw;
+  font-family: "Gotham";
+}
+
+.main-title {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+m1 {
+  font-size: 5vw;
+  font-family: "Bebas Neue";
+}
+
+ul.img-list {
+  margin-top: 10px;
+  padding: 0;
+  text-align: center;
+  min-width: 1200px;
+}
+
+.main {
+  margin-left: 6%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #eaeaea;
+  margin-top: 40px;
+}
+
+ul.img-list li {
+  list-style-type: none;
+  float: left;
+  height: 250px;
+  position: relative;
+  width: 375px;
+}
+
+img {
+    float: left;
+    border: 1px solid #E6E6E6;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.6);
+  color: white;
+  cursor: pointer;
+  display: table;
+  font-size: 1.5em;
+  font-family: "Gotham Condensed";
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 375px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+span.description {
+  color: #cfcfcf;
+  cursor: pointer;
+  display: table;
+  font-size: 1.0em;
+  font-family: "Gotham Condensed";
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 375px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.description span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+ul.img-list li:hover span.description {
+  opacity: 1;
+}
+
+.photog{
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #eaeaea;
+  margin-top: 40px;
+  margin-left: 6%;
+}
+
+.footer {
+  margin-top: 50px;
+  position: relative;
+  height: 60px;
+  background-color: #eaeaea;
+}
+
+f1 {
+  font-size: 12px;
+  margin-left: 10%;
+  font-family: "Helvetica Neue";
+  color: #999999;
+}
+
+.icons {
+    margin-left: 80%;
+    margin-top: -20px;
+}
+
+img.pad {
+  margin-left: 5px;
+}

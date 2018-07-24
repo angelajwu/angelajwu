@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Lost Freedom Magazine / Angela Wu</title>
+        <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+        <link href="stylesPage.css" rel="stylesheet">
+        <link rel = "icon" href = "a-w.png">
+        <link rel = "stylesheet" href ="https://w3schools.com/w3css/4/w3.css">
+    </head>
+
+    <body>
+        <div class = "header">
+            <div class = "nav">
+                <center><name> <a href="index.html">ANGELA WU</name> </a>
+                <div class = "top-break"> </div>
+                <nav1> 
+                    <a href="about.html">about</a> /
+                    <a href="projects.html"> projects </a> / 
+                    <a href="photography.html"> photography </a> 
+                    </center>
+                </nav1>
+            </div>
+        </div>
+
+        <div class = "project">
+            <div class ="projecthead"> 
+                <head1> <i> Lost Freedom Magazine </head1></i>
+                <hr>
+                <head2> 2011 - 2014
+                <br> <br> An online photomagazine that features the work for talented young photographers and artists. </head2>
+            </div>
+
+            <div class = "projectdes">
+            I founded an online photomagazine in 2011. Issues were released monthly and averaged around 100 pages. I interviewed photographers and artists and created the layout and design of all pages.
+            <br>
+                <img class = "slideshow" src="5/lf1.jpg" style="width:100%">
+                <img class = "slideshow" src="5/lf2.jpg" style="width:100%">
+                <img class = "slideshow" src = "5/lf3.jpg"  style="width:100%">
+                <img class = "slideshow" src="5/lf4.jpg"style="width:100%">
+                <img class = "slideshow" src="5/lf5.jpg" style="width:100%">
+                <img class = "slideshow" src="5/lf6.jpg" style="width:100%">
+                <img class = "slideshow" src="5/lf7.jpg" style="width:100%">
+
+                <div class="w3-row-padding w3-section">
+                    <div class="slide-col">
+                        <img class = "demo w3-opacity w3-hover-opacity-off" src="5/lf1.jpg" style="width:100%" onclick="currentDiv(1)">
+                    </div>
+
+                    <div class="slide-col">
+                        <img class = "demo w3-opacity w3-hover-opacity-off" src="5/lf2.jpg" style="width:100%"onclick="currentDiv(2)">
+                    </div>
+
+                    <div class="slide-col">
+                        <img class = "demo w3-opacity w3-hover-opacity-off" src = "5/lf3.jpg" style="width:100%"onclick="currentDiv(3)">
+                    </div>
+
+                    <div class="slide-col">
+                        <img class = "demo w3-opacity w3-hover-opacity-off" src="5/lf4.jpg" style="width:100%"onclick="currentDiv(4)">
+                    </div>
+
+                    <div class="slide-col">
+                        <img class = "demo w3-opacity w3-hover-opacity-off" src="5/lf5.jpg" style="width:100%"onclick="currentDiv(5)" >
+                    </div>
+
+                    <div class="slide-col">
+                        <img class = "demo w3-opacity w3-hover-opacity-off" src="5/lf6.jpg" style="width:100%"onclick="currentDiv(6)">
+                    </div>
+
+                    <div class="slide-col">
+                        <img class = "demo w3-opacity w3-hover-opacity-off" src="5/lf7.jpg" style="width:100%"onclick="currentDiv(7)">
+                    </div>
+                </div>
+            All issues can be read in full <a href="http://issuu.com/lostfreedom"> here </a>
+            </div>
+
+        </div>
+
+        <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+          showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("slideshow");
+          var dots = document.getElementsByClassName("demo");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+             dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+          }
+          x[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " w3-opacity-off";
+        }
+        </script>
+
+        <div style="clear: both"></div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+            <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow89.js"></script>
+            <noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+
+        <div class = "footer">
+                <br><f1> all material &copy; angela j wu, 2018 </f1>
+                <div class = "icons"> 
+                    <a href="mailto:angelajaywu@gmail.com">
+                        <img src="mail-icon.png" width = "10%" class = "pad">                        
+                    </a>
+                    <a href="http://linkedin.com/in/angelajwu">
+                        <img src="linked-icon.png" width = "10%" class = "pad">
+                    </a>
+                    <a href="http://instagram.com/angela.wu">
+                        <img src="ig-icon.png" width =  "10%" class = "pad">
+                    </a>
+                </div>
+        </div>
+    </body>
+
+</html>
+            
